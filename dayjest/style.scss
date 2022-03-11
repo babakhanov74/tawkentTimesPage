@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+ol,
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+.date_see{
+    color: #808080;
+    display: flex;
+    margin-bottom: 6px;
+    .year{
+        display: flex;
+        margin-right: 20px;
+        .icon{
+            margin-right: 4px;
+        }
+    }
+    .see{
+        display: flex;
+        .icon{
+            margin-right: 4px;
+        }
+    }
+    .audio{
+        display: flex;
+        margin-right: 20px;
+        .icon{
+            margin-right: 5px;
+        }
+    }
+}
+.plase{
+    display: flex;
+   p{  
+       font-family: 'Roboto', sans-serif;
+       margin-right: 16px;
+       font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #808080;
+   }
+}
+
+.darck{
+    color: white;
+    background-color: black;
+   .main{
+    .btn_more{
+        button{
+         background: #141414;
+         color: #FF0000;
+        }
+     }
+   }
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.red{
+    color: red;
+    cursor: pointer;
+}
+
+.eye{
+    cursor: pointer;
+}
+
+.menu{
+       
+    font-family: 'Roboto', sans-serif;
+ width: 100%;
+ background-color: #000;
+ height: 85px;
+ display: flex;
+ align-items: center;
+ .container{
+    a{
+        .icon{
+            color: white;
+          
+        }
+      }
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: white;
+     .li_lang{
+        font-size: 14px;
+         display: flex;
+         align-items: center;
+         .lang{
+             position: relative;
+            p{
+                cursor: pointer;
+                margin-left: 5px;
+            }
+             display: flex;
+             align-items: center;
+             .lang_open{
+                 bottom: -140px;
+                 position: absolute;
+                 width: 111px;
+                 height: 110px;
+                 background-color: black;
+                 p{
+                     margin-left: 30px;
+                     height: 36.5px;
+                 }
+             }
+         }
+         .dotGif{
+             
+             margin-right: 20px;
+         }
+     }
+     .dark{
+         display: flex;
+         .right{
+             width: 36px;
+             height: 36px;
+             margin-right: 10px;
+            
+         }
+         .search{
+            width: 36px;
+            height: 36px;
+            margin-right: 10px;
+           
+         }
+         .icon{
+             cursor: pointer;
+             width: 25px;
+             height: 25px;
+         }
+     }
+ }
+
+}
+.header_end{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+        .covid{
+           
+            .bat{
+                
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 16px;
+                text-transform: capitalize;
+                color: #0688E6;
+            }
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           border-bottom: 2px solid #D9D9D9;
+           padding: 10px 0;
+          .cov{
+           
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+          }
+           .catch_desc{
+               margin: 0 10px;
+               p:first-child{
+                   margin-bottom: 5px;
+                  
+                   font-style: normal;
+                   font-weight: normal;
+                   font-size: 10px;
+                   line-height: 12px;
+               }
+               p:last-child{
+               
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 12px;
+                   font-weight: bold;
+               }
+           }
+           .recover_desc{
+            margin: 0 10px;
+            p:first-child{
+                margin-bottom: 5px;
+             
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 12px;
+
+            }
+            p:last-child{
+                
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+        .die_desc{
+            margin: 0 10px;
+            p:first-child{
+                margin-bottom: 5px;
+               
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 12px;
+
+            }
+            p:last-child{
+               
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+     .countr{
+         display: flex;
+         align-items: center;
+         
+        .sircle{
+            margin-right: 5px;
+        }
+      p{
+      
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+      }
+     }
+
+        }
+        .date_weather{
+            display: flex;
+              margin-bottom: 81px;
+            padding: 5px 0;
+            border-bottom: 2px solid #D9D9D9;
+            .day{
+                margin-right: 20px;
+                 font-style: normal;
+                 font-weight: bold;
+                 font-size: 10px;
+                 line-height: 12px;
+             }
+            .weather{
+                padding-right: 30px;
+                border-right: 2px solid #D9D9D9;
+               
+                .weth_img{
+                    margin-right: 20px;
+                }
+                .plase{
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 10px;
+                    line-height: 12px;
+                    text-transform: capitalize;
+                }
+            }
+            .money{
+              padding: 0px 37px;
+                border-right:2px solid #D9D9D9;
+
+                .usd{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 20px;
+                   
+                    p{
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 12px;
+                        margin-left: 5px;
+                    }
+                }
+                .eur{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 20px;
+                   
+                    p{
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 12px;
+                        margin-left: 5px;
+                    }
+                }
+                .rub{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 20px;
+                   
+                    p{
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 12px;
+                        margin-left: 5px;
+                    }
+                }
+                .cny{
+                    margin-right: 20px;
+                    display: flex;
+                    align-items: center;
+                   
+                    p{
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 12px;
+                        margin-left: 5px;
+                    }
+                }
+                .try{
+                    margin-right: 20px;
+                    display: flex;
+                    align-items: center;
+                   
+                    p{
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 12px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+            .date{
+              .day{
+                  margin-left: 32px;
+              }
+              
+                .date_{
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 32px;
+                    line-height: 37px;
+                    text-align: right;
+                    text-transform: capitalize;
+                    color: #231815;
+                    margin-right: 15px;
+
+                }
+                .year{
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 10px;
+                    line-height: 12px;
+                    text-align: right;
+                    text-transform: capitalize;
+                }
+            }
+        }
+  
+}
+
+.wrapper{
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    .full{
+        display: flex;
+        margin-bottom: 40px;
+  .first{
+      width:739px;
+      padding-right: 20px;
+      border-right: 2px solid #D9D9D9;
+      .titles{
+          display: flex;
+          margin-bottom: 30px;
+          .one{
+              color: #808080;
+              margin-right: 50px;
+          }
+          .title{
+              display: flex;
+              align-items: center;
+              img{
+                  margin-right: 10px;
+              }
+              ion-icon{
+                  width: 30px;
+                  height: 50px;
+                  margin-right: 10px;
+              }
+          }
+      }
+      .card{
+          padding: 20px 0px 18px 0px;
+          border-bottom: 2px solid #D9D9D9;
+          .red{
+              margin-bottom: 5px;
+          }
+          h5{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          }
+      }
+      .date{
+          padding: 30px 0px 28px 0px;
+          border-bottom: 2px solid black;
+      }
+  }
+  .second{
+      padding-left: 20px;
+      .title{
+          display:flex ;
+          margin-bottom: 30px;
+          img{
+              margin-right: 5px;
+              
+          }
+      }
+      .card{
+          margin-bottom: 30px;
+          width: 349px;
+          h3{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          }
+      }
+      .two{
+          border-top: 2px solid #D9D9D9;
+          padding-top: 30px;
+      }
+
+  }
+  
+}
+.page_btn{
+    width: 100%;
+    margin-bottom: 60px;
+    button{
+        width: 100%;
+        height: 58px;
+        color: #FF0000;
+        background-color: #fafafa;
+        border: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 34px;
+        font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+    }
+}
+}

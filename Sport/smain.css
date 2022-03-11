@@ -1,0 +1,901 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.black {
+  background-color: black;
+  width: 100%;
+}
+
+.black .container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.black .container .navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 0px 15px 0px;
+}
+
+.black .container .navbar .left_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 23%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.black .container .navbar .left_nav .live {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 128px;
+  height: 36px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.black .container .navbar .left_nav .live img {
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.black .container .navbar .left_nav .live p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FF0000;
+  cursor: pointer;
+}
+
+.black .container .navbar .left_nav .launge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.black .container .navbar .left_nav .launge .eng.shows {
+  display: none;
+}
+
+.black .container .navbar .left_nav .launge .eng {
+  position: absolute;
+  top: 50px;
+  left: -20px;
+  width: 222px;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000000;
+}
+
+.black .container .navbar .left_nav .launge .eng .left {
+  width: 110px;
+  height: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 20px;
+}
+
+.black .container .navbar .left_nav .launge .eng .right {
+  width: 110px;
+  height: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5px;
+}
+
+.black .container .navbar .left_nav .launge ion-icon {
+  font-size: 28px;
+  margin-right: 7px;
+  color: white;
+  cursor: pointer;
+}
+
+.black .container .navbar .left_nav .launge p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  cursor: pointer;
+}
+
+.black .container .navbar .center_nav {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.black .container .navbar .right_nav {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.black .container .navbar .right_nav .moon {
+  cursor: pointer;
+  padding-top: 4px;
+}
+
+.black .container .navbar .right_nav ion-icon {
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+main .container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+main .container .section_one {
+  width: 100%;
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+main .container .section_one .right_card .subsc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+main .container .section_one .right_card .subsc p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  margin-right: 20px;
+}
+
+main .container .section_one .right_card .text {
+  margin-bottom: 10px;
+}
+
+main .container .section_one .right_card .text a {
+  font-family: 'Inter';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_one .right_card .btm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .section_one .right_card .btm p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+}
+
+main .container .section_two {
+  width: 100%;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+main .container .section_two .sub_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 23px;
+}
+
+main .container .section_two .sub_title svg {
+  margin-right: 10px;
+}
+
+main .container .section_two .sub_title h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_two .all_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .section_two .all_cards .right_card {
+  width: 350px;
+  height: 329px;
+}
+
+main .container .section_two .all_cards .right_card .subsc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+main .container .section_two .all_cards .right_card .subsc p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  margin-right: 20px;
+}
+
+main .container .section_two .all_cards .right_card .text {
+  margin-bottom: 10px;
+}
+
+main .container .section_two .all_cards .right_card .text a {
+  font-family: 'Inter';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_two .all_cards .right_card .btm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .section_two .all_cards .right_card .btm p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+}
+
+main .container .section_three {
+  width: 100%;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+main .container .section_three .sub_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 23px;
+}
+
+main .container .section_three .sub_title svg {
+  margin-right: 10px;
+}
+
+main .container .section_three .sub_title h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_three .all_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .section_three .all_cards .right_card {
+  width: 255px;
+  height: 274px;
+}
+
+main .container .section_three .all_cards .right_card .subsc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+main .container .section_three .all_cards .right_card .subsc p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  margin-right: 20px;
+}
+
+main .container .section_three .all_cards .right_card .text {
+  margin-bottom: 10px;
+}
+
+main .container .section_three .all_cards .right_card .text a {
+  font-family: 'Inter';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_three .all_cards .right_card .btm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .section_three .all_cards .right_card .btm p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+}
+
+main .container .section_four {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+main .container .section_four .sub_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 23px;
+}
+
+main .container .section_four .sub_title svg {
+  margin-right: 10px;
+}
+
+main .container .section_four .sub_title h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_four .all_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .section_four .all_cards .right_card {
+  width: 255px;
+  height: 274px;
+}
+
+main .container .section_four .all_cards .right_card .subsc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+main .container .section_four .all_cards .right_card .subsc p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  margin-right: 20px;
+}
+
+main .container .section_four .all_cards .right_card .text {
+  margin-bottom: 10px;
+}
+
+main .container .section_four .all_cards .right_card .text a {
+  font-family: 'Inter';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_four .all_cards .right_card .btm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .section_four .all_cards .right_card .btm p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+}
+
+main .container .reclama {
+  text-align: center;
+}
+
+main .container .section_five {
+  width: 100%;
+  padding-top: 50px;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+main .container .section_five .sub_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 23px;
+}
+
+main .container .section_five .sub_title svg {
+  margin-right: 10px;
+}
+
+main .container .section_five .sub_title h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_five .all_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+main .container .section_five .all_cards .right_card {
+  width: 197px;
+  height: 206px;
+}
+
+main .container .section_five .all_cards .right_card img {
+  margin-bottom: 20px;
+}
+
+main .container .section_five .all_cards .right_card .text {
+  margin-bottom: 10px;
+}
+
+main .container .section_five .all_cards .right_card .text a {
+  font-family: 'Inter';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_six {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+main .container .section_six .right_block {
+  width: 66.6%;
+  border-right: 1px solid #D9D9D9;
+  margin-right: 30px;
+  padding-right: 20px;
+}
+
+main .container .section_six .right_block .cards .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+main .container .section_six .right_block .cards .top .card {
+  width: 350px;
+  height: 263px;
+  margin-right: 20px;
+}
+
+main .container .section_six .right_block .cards .top .card img {
+  margin-bottom: 10px;
+}
+
+main .container .section_six .right_block .cards .top .card h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_six .right_block .cards .top .card .subsc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+main .container .section_six .right_block .cards .top .card .subsc p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  margin-right: 20px;
+}
+
+main .container .section_six .right_block .cards .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .section_six .right_block .cards .bottom .card {
+  width: 350px;
+  height: 263px;
+  margin-right: 20px;
+}
+
+main .container .section_six .right_block .cards .bottom .card img {
+  margin-bottom: 10px;
+}
+
+main .container .section_six .right_block .cards .bottom .card h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_six .right_block .cards .bottom .card .subsc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+main .container .section_six .right_block .cards .bottom .card .subsc p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  margin-right: 20px;
+}
+
+main .container .section_six .right_block .sub_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 23px;
+}
+
+main .container .section_six .right_block .sub_title svg {
+  margin-right: 10px;
+}
+
+main .container .section_six .right_block .sub_title h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_six .left_block {
+  width: 33.3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .section_six .left_block .sub_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 23px;
+}
+
+main .container .section_six .left_block .sub_title svg {
+  margin-right: 10px;
+}
+
+main .container .section_six .left_block .sub_title h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+}
+
+main .container .section_six .left_block .all_one .one {
+  width: 319px;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+main .container .section_six .left_block .all_one .one h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+main .container .section_six .left_block .all_one .btm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .section_six .left_block .all_one .btm p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  margin-right: 10px;
+}
+
+main .container .section_six .left_block .all_one .ones {
+  width: 320px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+main .container .section_six .left_block .all_one .ones h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+main .container .btn button {
+  width: 1110px;
+  height: 58px;
+  background: #FAFAFA;
+  margin-bottom: 80px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 34px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+          font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #FF0000;
+  border: none;
+}
+/*# sourceMappingURL=smain.css.map */

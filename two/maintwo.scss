@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+      .black{
+        background-color: black;
+        width: 100%;
+     .container{
+         width: 100%;
+         max-width: 1120px;
+         margin: 0 auto;
+        .navbar{
+            
+            .right_nav{
+                a{
+                    ion-icon{
+                    color: red
+                    }
+                }
+            }
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+       
+            padding:15px 0px 15px 0px;
+            
+            .left_nav{
+                display: flex;
+                width: 23%;
+                align-items: center;
+                justify-content: space-between;
+                .live{
+                    display: flex;
+                    align-items: center;
+                    width:128px ;
+                    height :36px;
+                    border-radius: 20px;
+                    background-color: white;
+                    img{
+                        margin-right:7px;
+                        cursor: pointer;
+                    }
+                    p{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 15px;
+                        text-align: center;
+                        color: #FF0000;
+                        cursor: pointer;
+                    }
+                }
+                .launge{
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    .eng.shows{
+                        display: none;
+                    }
+                    .eng{
+                        position: absolute;
+                        top: 50px;
+                        left: -20px;
+                        width: 222px;
+                        height: 110px;
+                        display: flex;
+                        background-color: #000000;
+                        .left{
+                            width: 110px;
+                            height: 108px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            padding-left: 20px;
+                        }
+                        .right{
+                            width: 110px;
+                            height: 108px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            padding: 5px;
+                        }
+                    }
+                    ion-icon{
+                        font-size: 28px;
+                        margin-right: 7px;
+                        color: white;
+                        cursor: pointer;
+                    }
+                    p{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: white;
+                        cursor: pointer;
+    
+                    }
+                }
+            }
+            .center_nav{
+                width: 40%;
+                display: flex;
+                justify-content: center;
+            }
+            .right_nav{
+                width: 15%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .moon{
+                    cursor: pointer;
+                    padding-top:4px;
+                }
+                ion-icon{    
+                    font-size: 28px;
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+        }
+        .nav_bottom{
+            .top{
+                display: flex;
+                width: 100%;
+                padding-top: 20px;
+                padding-bottom: 17px;
+                justify-content: space-between;
+                align-items: center;
+                .theme{
+                    p{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 16px;
+                      
+                    }
+                }
+                .covids{
+                    width: 45%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .covid{
+                        display: flex;
+                         img{
+                             margin-right: 10px;
+                         }
+                         .text{
+                             margin-right: 5px;
+                            h5{
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 10px;
+                                line-height: 12px;
+                                text-transform: capitalize;
+                                margin-bottom: 5px;
+                             }
+                            p{
+                                
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 10px;
+                                line-height: 12px;
+                                text-transform: capitalize;
+                              
+                            }
+                         }
+                         svg{
+                             margin-top: 3px;
+                         }
+                    }
+                    .covid_two{
+                        display: flex;
+                         img{
+                            margin-right: 10px;
+                        }
+                        .text{
+                            margin-right: 5px;
+                           h5{
+                               font-family: 'Roboto';
+                               font-style: normal;
+                               font-weight: normal;
+                               font-size: 10px;
+                               line-height: 12px;
+                               text-transform: capitalize;
+                               margin-bottom: 5px;
+                            
+                            }
+                           p{
+                               
+                               font-family: 'Roboto';
+                               font-style: normal;
+                               font-weight: bold;
+                               font-size: 10px;
+                               line-height: 12px;
+                               text-transform: capitalize;
+                            
+                           }
+                        }
+                        svg{
+                            margin-top: 3px;
+                        }
+                    }
+                    .covid_three{
+                        display: flex;
+                         img{
+                            margin-right: 10px;
+                        }
+                        .text{
+                            margin-right: 5px;
+                           h5{
+                               font-family: 'Roboto';
+                               font-style: normal;
+                               font-weight: normal;
+                               font-size: 10px;
+                               line-height: 12px;
+                               text-transform: capitalize;
+                               margin-bottom: 5px;
+     
+                            }
+                           p{
+                               
+                               font-family: 'Roboto';
+                               font-style: normal;
+                               font-weight: bold;
+                               font-size: 10px;
+                               line-height: 12px;
+                               text-transform: capitalize;
+                           
+                           }
+                        }
+                        svg{
+                            margin-top: 3px;
+                        }
+                    }
+                }
+                .uzb{
+                    display: flex;
+                    align-items: center;
+                    svg{
+                        margin-right: 5px;
+                    }
+                    p{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 12px;
+                    
+                    }
+                }
+                h5{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-transform: capitalize;
+                    color: #0688E6;
+                }
+            }
+            .btm{
+                border-top:2px solid #D9D9D9;
+                border-bottom:2px solid #D9D9D9;
+                width: 100%;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
+                .left_btm{
+                    display: flex;
+                    width: 25%;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-right: 2px solid #D9D9D9;
+                    padding-right: 10px;
+                    p{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 12px;
+                     
+                    }
+                    h5{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 10px;
+                        line-height: 12px;
+                        text-transform: capitalize;
+                        margin-bottom: 5px;
+                      
+                    }
+                    .weather{
+                        display: flex;
+                        img{
+                            margin-right:10px;
+                        }
+                        h4{
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 16px;
+                            text-transform: capitalize;
+                         
+                            margin-bottom: 5px;
+                        }
+                        h5{
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 10px;
+                            line-height: 12px;
+                            text-transform: capitalize;
+                         
+                        }
+                    }
+    
+                }
+                .center_btm{
+                    width: 50%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding-left: 10px;
+                    padding-right: 10px;
+    
+                    .one{
+                        display: flex;
+                        p{
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 10px;
+                            line-height: 12px;
+                         
+                            margin-left: 3px;
+    
+                        }
+                    }
+                }
+                .right_btm{
+                    display: flex;
+                    width: 25%;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-left: 2px solid #D9D9D9;
+                    padding-left: 10px;
+                    p{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 12px;
+                     
+                    }
+                    h2{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 34px;
+                        line-height: 37px;
+                        text-align: right;
+                        text-transform: capitalize;
+                      
+                    }
+                    h5{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 10px;
+                        line-height: 12px;
+                        text-align: right;
+                        text-transform: capitalize;
+                       
+    
+                    }
+                }
+            }
+        }
+     }
+   
+}
+
+.users{
+    width: 100%;
+    position: relative;
+    background: url(images/menu/bgc.png);
+    background-size:contain;
+    height: 100vh;
+    .container{
+        max-width: 1120px;
+        width: 100%;
+
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px 50px 0px;
+    }
+  .image{
+    img{
+        width: 100%;
+        height: 928px;
+    }
+  }
+    .big_card{
+        padding:  46px 64px 46px 64px;
+        font-family: 'Inter';
+        border: 1px solid #D9D9D9;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 510px;
+        height: 850px;
+        background-color: #FFFFFF;
+        .pol{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+           
+            .oddiy{
+                
+                width: 167px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 129px;
+                border: 1px solid #D9D9D9;
+                box-sizing: border-box;
+                border-radius: 5px;
+                flex-direction: column;
+                img{
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+                    color: #737373;
+                }
+            }
+           
+            .qizil{
+                
+                width: 167px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 129px;
+                border: 1px solid red;
+                box-sizing: border-box;
+                border-radius: 5px;
+                flex-direction: column;
+                img{
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+                    color: black;
+                }
+            }
+           
+          
+            }
+            .oddiyy{
+                width: 167px;
+                height: 129px;
+                border: 1px solid #D9D9D9;
+                box-sizing: border-box;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                p{
+                    color: #737373;
+                    font-family: 'Inter';
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                img{
+                    margin-bottom: 10px;
+                }
+            }
+            .qizilt{
+                width: 167px;
+                height: 129px;
+                border: 1px solid red;
+                box-sizing: border-box;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                p{
+                    color: black;
+                    font-family: 'Inter';
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                img{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .input{
+            width: 383px;
+            height: 50px;
+            border: 1px solid #D9D9D9;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            margin-bottom: 40px;
+            ion-icon{
+                margin-right: 10px;
+                font-size: 30px;
+                color: #FF0000;
+            }
+            input{
+                width: 340px;
+                height: 100%;
+                border: none;
+                outline: none;
+            }
+
+        }
+        h3{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+            color: #FF0000;
+            margin-bottom: 20px;
+        }
+        .input_two{
+            width: 383px;
+            height: 50px;
+            border: 1px solid #D9D9D9;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            margin-bottom: 40px;
+            input{
+                width: 340px;
+                height: 100%;
+                border: none;
+                outline: none;
+            }
+            ion-icon{
+                margin-right: 10px;
+                font-size: 30px;
+            }
+            ion-icon:first-child{
+                color: #FF0000;
+            }
+
+        }
+        .apps{
+            margin-bottom: 40px;
+            .app{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-bottom: 10px;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 17px;
+                text-align: center;
+                color: #D9D9D9;
+            }
+        }
+        .input_three{
+            .one{
+                width: 383px;
+            height: 50px;
+            border: 1px solid #D9D9D9;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            margin-bottom: 20px;
+            input{
+                width: 340px;
+                height: 100%;
+                border: none;
+                outline: none;
+            }
+            ion-icon{
+                margin-right: 10px;
+                font-size: 30px;
+            }
+            ion-icon:first-child{
+                color: #FF0000;
+            }
+            }
+            .two{
+                width: 383px;
+            height: 50px;
+            border: 1px solid #D9D9D9;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            margin-bottom: 20px;
+            input{
+                width: 340px;
+                height: 100%;
+                border: none;
+                outline: none;
+            }
+            ion-icon{
+                margin-right: 10px;
+                font-size: 30px;
+            }
+            ion-icon:first-child{
+                color: #FF0000;
+            }
+            }
+
+        }
+        .btn{
+            .one_btn{
+              button{
+                width: 383px;
+                height: 50px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+          
+                background: #FF0000;
+                border-radius: 5px;
+                border: none;
+                margin-bottom:20px;
+              }
+            }
+            .two_btn{
+              button{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+                width: 383px;
+                height: 50px;
+                border: 1px solid #FF0000;
+                box-sizing: border-box;
+                border-radius: 5px;
+                background-color: white;
+                color:#FF0000 ;
+              }
+            }
+        }
+    }
+}

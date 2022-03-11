@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.black{
+    background-color: black;
+    width: 100%;
+    .container{
+        width: 100%;
+        max-width: 1120px;
+        margin:  0 auto;
+
+        .navbar{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        
+            padding:15px 0px 15px 0px;
+            
+            .left_nav{
+                display: flex;
+                width: 23%;
+                align-items: center;
+                justify-content: space-between;
+                .live{
+                    display: flex;
+                    align-items: center;
+                    width:128px ;
+                    height :36px;
+                    border-radius: 20px;
+                    background-color: white;
+                    img{
+                        margin-right:7px;
+                        cursor: pointer;
+                    }
+                    p{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 15px;
+                        text-align: center;
+                        color: #FF0000;
+                        cursor: pointer;
+                    }
+                }
+                .launge{
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    .eng.shows{
+                        display: none;
+                    }
+                    .eng{
+                        position: absolute;
+                        top: 50px;
+                        left: -20px;
+                        width: 222px;
+                        height: 110px;
+                        display: flex;
+                        background-color: #000000;
+                        .left{
+                            width: 110px;
+                            height: 108px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            padding-left: 20px;
+                        }
+                        .right{
+                            width: 110px;
+                            height: 108px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            padding: 5px;
+                        }
+                    }
+                    ion-icon{
+                        font-size: 28px;
+                        margin-right: 7px;
+                        color: white;
+                        cursor: pointer;
+                    }
+                    p{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: white;
+                        cursor: pointer;
+        
+                    }
+                }
+            }
+            .center_nav{
+                width: 40%;
+                display: flex;
+                justify-content: center;
+            }
+            .right_nav{
+                width: 15%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .moon{
+                    cursor: pointer;
+                    padding-top:4px;
+                }
+                ion-icon{    
+                    font-size: 28px;
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.main{
+    width: 100%;
+    padding-top: 80px;
+    .container{
+        width: 100%;
+        max-width: 1120px;
+        margin:  0 auto;
+        .main_title{
+            margin-bottom: 100px;
+            h1{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 80px;
+                line-height: 94px;
+                text-align: center;
+                color: #000000;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+                color: #4D4D4D;
+            }
+        }
+        .group{
+            .top{
+                display: flex;
+                justify-content: space-between;
+                .one{
+                    width: 220px;
+                    height: 230px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                    cursor: pointer;
+                    img{
+                        margin-bottom: 20px;
+                    }
+                    h6{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 22px;
+                        text-align: center;
+                        font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+                        color: #000000;
+                        margin-bottom: 6px;
+                    }
+                    p{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-align: center;
+                        color: #4D4D4D;
+                    }
+                }
+                .ones{
+                    width: 220px;
+                    height: 230px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                    cursor: pointer;
+                    padding-top:30px;
+                    img{
+                        margin-bottom: 20px;
+                    }
+                
+                    h6{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 22px;
+                        text-align: center;
+                        font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+                        color: #000000;
+                        margin-bottom: 6px;
+                    }
+                }
+            }
+        }
+        button{
+            width: 1110px;
+            height: 58px;
+            background: #FAFAFA;
+            margin-bottom: 80px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 34px;
+            font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+            color: #FF0000;
+            border: none;
+        }
+
+    }
+}
+footer{
+    color: whitesmoke;
+    width: 100%;
+    background-color: black;
+    padding-top: 70px;
+    position: absolute;
+    .container{
+        width: 100%;
+        max-width: 1120px;
+        margin: 0 auto;
+        .footer_block{
+            .top_desc{
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 2px solid #1E2126;
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                .one{
+                    h5{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 22px;
+                        font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+                        color: #FFFFFF;
+                        margin-bottom: 20px;
+                    }
+                    ul{
+                        li{
+                            list-style: none;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 15px;
+                            color: #FFFFFF;
+                            margin-bottom: 9px;
+                        }
+                    }
+                }
+            }
+            .bottom_desc{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                .center_desc{
+                    width: 60%;
+                    .top{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
+                        h5{
+                            font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 20px;
+                        line-height: 22px;
+                        font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+                        color: #FFFFFF;
+                        margin-bottom: 20px;
+                        }
+                    }
+                    .btm{
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            li{
+                                list-style: none;
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 15px;
+                                color: #FFFFFF;
+                                margin-bottom: 9px;
+                            }
+                        }
+                    }
+                }
+                .right_desc{
+                    width: 15%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            .all_btm{
+                p{
+                                    
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 16px;
+                color: #FFFFFF;
+                }
+            }
+        }
+
+    }
+}
